@@ -1,0 +1,134 @@
+{
+  "id": "d7a23275-bcc3-4724-a064-63f61ab170b3",
+  "name": "Testcases",
+  "requests": [
+    {
+      "id": "f016feab-f0f3-425e-b314-287d2e8698bd",
+      "collectionId": "d7a23275-bcc3-4724-a064-63f61ab170b3",
+      "method": "POST",
+      "url": "http://127.0.0.1:8080/execute",
+      "headers": "Content-Type: application/x-www-form-urlencoded\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "commands",
+          "value": "MOVE",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "REPORT",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "1d1798f4-5f92-4fb4-ae11-d34844898833",
+      "collectionId": "d7a23275-bcc3-4724-a064-63f61ab170b3",
+      "method": "POST",
+      "url": "http://127.0.0.1:8080/execute",
+      "headers": "Content-Type: application/x-www-form-urlencoded\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "commands",
+          "value": "PLACE 1,2,EAST",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "MOVE",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "MOVE",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "LEFT",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "MOVE",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "REPORT",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "a39ef9a7-793b-42a5-aec5-28959b24e252",
+      "collectionId": "d7a23275-bcc3-4724-a064-63f61ab170b3",
+      "method": "POST",
+      "url": "http://127.0.0.1:8080/execute",
+      "headers": "Content-Type: application/x-www-form-urlencoded\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "commands",
+          "value": "PLACE 0,0,NORTH",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "LEFT",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "REPORT",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    },
+    {
+      "id": "dada0466-1f35-441d-8567-e2573cbe99ce",
+      "collectionId": "d7a23275-bcc3-4724-a064-63f61ab170b3",
+      "method": "POST",
+      "url": "http://127.0.0.1:8080/execute",
+      "headers": "Content-Type: application/x-www-form-urlencoded\n",
+      "dataMode": "urlencoded",
+      "data": [
+        {
+          "key": "commands",
+          "value": "PLACE 0,0,NORTH",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "MOVE",
+          "type": "text",
+          "enabled": true
+        },
+        {
+          "key": "commands",
+          "value": "REPORT",
+          "type": "text",
+          "enabled": true
+        }
+      ],
+      "rawModeData": []
+    }
+  ]
+}
